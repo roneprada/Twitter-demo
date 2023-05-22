@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    /* gap: 8%; */
+}
+
+.container-1{
+    width: 25%;
+    border: solid green;
+    height: 810px;
+}
+
+.container-2{
+    width: 50%;
+    border: solid green;
+}
+
+.container-3{
+    width: 25%;
+    border: solid green;
+}
