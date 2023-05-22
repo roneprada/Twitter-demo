@@ -22,19 +22,19 @@ body{
     border: solid green;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    /* gap: 5%; */
     /* height: 100%; */
 }
 .twitter-logo{
     width: 100%;
-    border: solid red;
+    /* border: solid red; */
     height: 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.button{
+.button-twitter{
     width: 20%;
     height: 70%;
     border-radius: 50%;
@@ -42,8 +42,29 @@ body{
     border: none;
 }
 
+.button-twitter:hover{
+    background-color: var(--hover-color);
+}
+
+.button{
+    border: solid var(--body-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--body-color);
+    height: 70%;
+    border-radius: 20px;
+    width: 70%;
+}
+
 .button:hover{
     background-color: var(--hover-color);
+}
+
+span{
+    font-size: larger;
+    font-weight: bolder;
 }
 
 ion-icon{
@@ -54,6 +75,28 @@ ion-icon{
 .container-2{
     width: 50%;
     border: solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border: solid pink;
+    height: 15%;
+    width: 100%;
+    z-index: 2;
+}
+
+.for-you{
+    border: solid red;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.home{
+    font-weight: bolder;
+    color: white;
 }
 
 .container-3{
