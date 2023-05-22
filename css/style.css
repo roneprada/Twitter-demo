@@ -5,17 +5,50 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+:root{
+    --body-color: #1b87b5;
+    --hover-color: #26a7de;
+}
+
 body{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
-    /* gap: 8%; */
+    background-color: var(--body-color);
+    height: 100vh;
 }
 
 .container-1{
     width: 25%;
     border: solid green;
-    height: 810px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    /* height: 100%; */
+}
+.twitter-logo{
+    width: 100%;
+    border: solid red;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    width: 20%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: var(--body-color);
+    border: none;
+}
+
+.button:hover{
+    background-color: var(--hover-color);
+}
+
+ion-icon{
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 .container-2{
