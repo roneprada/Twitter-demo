@@ -77,7 +77,11 @@ ion-icon{
 
 .container-2{
     width: 40%;
+    display: inline-block;
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
     /* border: solid green; */
+    /* height: 50%; */
     display: flex;
     flex-direction: column;
 }
@@ -97,7 +101,7 @@ header{
     border-bottom: solid var(--dark-grey-color);
     height: 15%;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .for-me{
@@ -146,8 +150,9 @@ header{
 .overflow-2{
     display: flex;
     flex-direction: column;
+    /* display: inline-block; */
     /* border: solid red; */
-    height: 100%;
+    height: 2000px;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -284,7 +289,7 @@ header{
 
 .part-2{
     border: solid var(--dark-grey-color);
-    height: 400px;
+    height: 500px;
 }
 
 .photo-flex{
@@ -308,10 +313,11 @@ header{
 }
 
 .paragraph-2{
-    border: solid green;
+    /* border: solid green; */
     margin-left: 80px;
     margin-top: -20px;
-    height: 60%;
+    height: 85%;
+    margin-right: 80px;
 }
 
 .lower-text{
@@ -328,7 +334,7 @@ header{
     font-size: x-large;
     margin-top: -15px;
     width: 5px;
-    height: 10px;
+    height: 5px;
 }
 
 .check{
@@ -349,9 +355,9 @@ header{
 }
 
 .about-cr7{
-    border: solid red;
-    width: 80%;
-    height: 80%;
+    /* border: solid red; */
+    width: 100%;
+    height: 40%;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -360,6 +366,24 @@ header{
     line-height: 30px;
 }
 
+.cr7-image{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/image/cr7.jpeg);
+    background-size: cover;
+    margin-top: 10px;
+    /* border: solid black; */
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px var(--body-color);
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+
+.part-3{
+    height: 400px;
+}
 
 .container-3{
     width: 30%;
