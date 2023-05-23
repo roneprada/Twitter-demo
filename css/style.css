@@ -10,6 +10,7 @@
     --hover-color: #26a7de;
     --dark-grey-color: darkgrey;
     --light-grey-color: rgba(211, 211, 211, 0.281);
+    --color-white: white;
 }
 
 body{
@@ -292,6 +293,55 @@ header{
     align-items: center;
     flex-direction: row;
 }
+
+.profile-name{
+    border: solid ;
+    color: var(--color-white);
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pro-name{
+    
+}
+
+.lower-text{
+    font-size: x-small;
+    color: var(--dark-grey-color);
+    margin-left: 2%;
+}
+
+.lower-text::after{
+    content: '.';
+    position: absolute;
+    border: red;
+    /* background-color: red; */
+    font-size: x-large;
+    margin-top: -15px;
+    width: 5px;
+    height: 10px;
+}
+
+.check{
+    /* color: var(--color-white); */
+    background-color: black;
+    border-radius: 50%;
+}
+
+.media1{
+    font-size: small;
+    color: var(--body-color);
+}
+
+.hour{
+    font-size: x-small;
+    margin-left: 10px;
+    color: var(--dark-grey-color);
+}
+
 
 .container-3{
     width: 30%;
