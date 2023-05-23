@@ -288,14 +288,17 @@ header{
 }
 
 .photo-flex{
-    border: solid brown;
+    /* border: solid brown; */
+    margin-top: 10px;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    /* height: 10%; */
+    /* flex-direction: row; */
 }
 
 .profile-name{
-    border: solid ;
+    /* border: solid ; */
+    margin-left: 5px;
     color: var(--color-white);
     height: 100%;
     width: 80%;
@@ -304,8 +307,11 @@ header{
     align-items: center;
 }
 
-.pro-name{
-    
+.paragraph-2{
+    border: solid green;
+    margin-left: 80px;
+    margin-top: -20px;
+    height: 60%;
 }
 
 .lower-text{
@@ -342,8 +348,33 @@ header{
     color: var(--dark-grey-color);
 }
 
+.about-cr7{
+    border: solid red;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.cr7-news{
+    line-height: 30px;
+}
+
 
 .container-3{
     width: 30%;
     border-left: solid var(--dark-grey-color);
+}
+@media screen and (max-width:768px) {
+    .container-3{
+        display: none;
+    }
+
+    .container-1{
+        display: none;
+    }
+
+    .container-2{
+        width: 100%;
+    }
 }
