@@ -8,6 +8,7 @@
 :root{
     --body-color: #1b87b5;
     --hover-color: #26a7de;
+    --dark-grey-color: darkgrey;
 }
 
 body{
@@ -18,10 +19,10 @@ body{
 }
 
 .container-1{
-    width: 25%;
-    border: solid green;
+    width: 30%;
     display: flex;
     flex-direction: column;
+    border-right: solid var(--dark-grey-color);
     /* gap: 5%; */
     /* height: 100%; */
 }
@@ -73,33 +74,70 @@ ion-icon{
 }
 
 .container-2{
-    width: 50%;
-    border: solid green;
+    width: 40%;
+    /* border: solid green; */
     display: flex;
     flex-direction: column;
 }
 
 header{
-    border: solid pink;
+    border-bottom: solid var(--dark-grey-color);
     height: 15%;
     width: 100%;
     z-index: 2;
 }
 
+.for-me{
+    margin-bottom: 2.5%;
+}
+
 .for-you{
-    border: solid red;
-    height: 80%;
+    /* border: solid red; */
+    height: 70%;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
+.for-you2::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    color: purple;
+    background-color: var(--hover-color);
+    height: 5px;
+    margin-left: -65px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+.following:hover:after{
+    content: '';
+    position: absolute;
+    width: 75px;
+    background-color: var(--hover-color);
+    height: 5px;
+    margin-left: -74px;
+    margin-top: 25px;
+    border-radius: 30px;
+
+}
+
 .home{
     font-weight: bolder;
     color: white;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.overflow-2{
+    border: solid red;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .container-3{
-    width: 25%;
-    border: solid green;
+    width: 30%;
+    border-left: solid var(--dark-grey-color);
 }
