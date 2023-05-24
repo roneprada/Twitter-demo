@@ -77,11 +77,8 @@ ion-icon{
 
 .container-2{
     width: 40%;
-    display: inline-block;
-    /* overflow: hidden; */
-    /* overflow-y: scroll; */
-    /* border: solid green; */
-    /* height: 50%; */
+    overflow: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -99,9 +96,11 @@ ion-icon{
 
 header{
     border-bottom: solid var(--dark-grey-color);
-    height: 15%;
-    width: 100%;
-    z-index: 1;
+    position: absolute;
+    background-color: var(--body-color);
+    height: 70px;
+    width: 40%;
+    z-index: 2;
 }
 
 .for-me{
@@ -150,16 +149,17 @@ header{
 .overflow-2{
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
     /* display: inline-block; */
     /* border: solid red; */
-    height: 2000px;
-    overflow: hidden;
-    overflow-y: scroll;
+    /* height: 9000px; */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
 }
 
 .part-1{
     border: solid blueviolet;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -190,8 +190,8 @@ header{
 #text{
     /* border: solid blue; */
     border-bottom: solid var(--dark-grey-color);
-    height: 40%;
-    /* margin-top: 70px; */
+    height: 45%;
+    margin-top: 1px;
     margin-left: 15%;
     margin-right: 3%;
     /* width: 80%; */
@@ -206,6 +206,11 @@ header{
     border: none;
     background-color: var(--body-color);
     outline: none;
+}
+
+#p-2{
+    /* border: solid red; */
+    margin-top: 5px;
 }
 
 #logos{
@@ -289,7 +294,7 @@ header{
 
 .part-2{
     border: solid var(--dark-grey-color);
-    height: 500px;
+    height: 600px;
 }
 
 .photo-flex{
@@ -314,10 +319,10 @@ header{
 
 .paragraph-2{
     /* border: solid green; */
-    margin-left: 80px;
+    margin-left: 70px;
     margin-top: -20px;
-    height: 85%;
-    margin-right: 80px;
+    height: 500px;
+    margin-right: 20px;
 }
 
 .lower-text{
@@ -358,31 +363,31 @@ header{
     /* border: solid red; */
     width: 100%;
     height: 40%;
+    font-size: normal;
     overflow: hidden;
-    overflow-y: scroll;
 }
 
-.cr7-news{
-    line-height: 30px;
-}
+
 
 .cr7-image{
     display: flex;
     flex-wrap: wrap;
     background-image: url(/image/cr7.jpeg);
     background-size: cover;
-    margin-top: 10px;
+    margin-top: 15px;
     /* border: solid black; */
     margin-right: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px var(--body-color);
     width: 100%;
-    height: 60%;
-    margin-bottom: 10px;
+    height: 52%;
+    /* margin-bottom: 10px; */
 }
 
-.part-3{
-    height: 400px;
+#part-3{
+    border: solid red;
+    /* margin-top: 50px; */
+    height: 700px;
 }
 
 .container-3{
@@ -390,6 +395,10 @@ header{
     border-left: solid var(--dark-grey-color);
 }
 @media screen and (max-width:768px) {
+
+    header{
+        width: 100%;
+    }
     .container-3{
         display: none;
     }
@@ -400,5 +409,15 @@ header{
 
     .container-2{
         width: 100%;
+    }
+
+    .about-cr7{
+        /* border: solid red; */
+        width: 100%;
+        height: 40%;
+        font-size: normal;
+        overflow: hidden;
+        overflow-y: scroll;
+        /* overflow: hidden; */
     }
 }
