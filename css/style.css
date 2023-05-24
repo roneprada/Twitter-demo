@@ -390,6 +390,46 @@ header{
     height: 700px;
 }
 
+.stats{
+    margin-top: 2px;
+    border: solid red;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats-button{
+    background-color: var(--body-color);
+    color: var(--dark-grey-color);
+    height: 20px;
+    border: none;
+
+}
+
+.span1{
+    font-size: small;
+    margin-left: -14%;
+    color: var(--dark-grey-color);
+}
+
+.span2{
+    position: absolute;
+    font-size: small;
+    border: solid green;
+    margin-left: -14%;
+    color: var(--dark-grey-color);
+}
+
+.span3{
+    font-size: small;
+    margin-left: -14%;
+    color: var(--dark-grey-color);
+}
+
+
+
 .container-3{
     width: 30%;
     border-left: solid var(--dark-grey-color);
