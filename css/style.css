@@ -331,16 +331,7 @@ header{
     margin-left: 2%;
 }
 
-.lower-text::after{
-    content: '.';
-    position: absolute;
-    border: red;
-    /* background-color: red; */
-    font-size: x-large;
-    margin-top: -15px;
-    width: 5px;
-    height: 5px;
-}
+
 
 .check{
     /* color: var(--color-white); */
@@ -355,7 +346,7 @@ header{
 
 .hour{
     font-size: x-small;
-    margin-left: 10px;
+    margin-left: 2px;
     color: var(--dark-grey-color);
 }
 
@@ -421,6 +412,18 @@ header{
     font-size: small;
     font-weight: lighter;
     color: var(--dark-grey-color);
+}
+
+.photos-elon{
+    border: solid green;
+        height: 50px;
+        margin-left: 3%;
+        margin-top: 3%;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url(/image/elon.jpeg);
+        background-size: cover;
+    
 }
 
 .container-3{
