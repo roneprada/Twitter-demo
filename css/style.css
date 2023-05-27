@@ -624,7 +624,10 @@ a{
     border-left: solid var(--dark-grey-color);
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 #search-bar{
@@ -662,7 +665,78 @@ align-items: center;
     margin-top: 5px;
     border-radius: 10px;
     height: 120px;
+    display: flex;
+    justify-content: center;
+    
 }
+
+.second-box-text{
+    display: flex;
+    flex-direction: column;
+    border: solid red;
+    width: 80%;
+    border-radius: 10px;
+    height: 100%;
+
+}
+
+.space{
+    border: solid white;
+    border-radius: 10px 10px 0px 0px;
+    height: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.listen{
+    margin-left: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.space2{
+    border: solid green;
+    height: 70%;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-box{
+    border: solid green;
+    height: 600px;
+    width: 80%;
+    margin-top: 10px;
+    /* display: grid;
+    grid-template-rows: repeat(5,1fr); */
+}
+
+.testing12{
+    height: 7%;
+    border: solid white;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+.what{
+    margin-left: 5px;
+}
+
+.third-box2{
+    height: 90%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.grid1{
+    border: solid red;
+}
+
+
 
 
 @media screen and (max-width:768px) {
