@@ -322,6 +322,8 @@ header{
 .part-2{
     border: solid var(--dark-grey-color);
     height: 600px;
+    border-left: none;
+    border-right: none;
 }
 
 .photo-flex{
@@ -631,17 +633,19 @@ a{
 }
 
 #search-bar{
-    border: solid red;
+    /* border: solid red; */
     margin-top: 5px;
     height: 50px;
     width: 80%;
+    box-shadow: 10px 10px 10px 10px var(--body-color);
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #search{
-    width: 80%;
+    width: 100%;
     height: 100%;
     border-radius: 20px;
     border: none;
@@ -660,7 +664,7 @@ a{
 }
 
 .second-box{
-    border: solid green;
+    /* border: solid green; */
     width: 80%;
     margin-top: 5px;
     border-radius: 10px;
@@ -673,20 +677,23 @@ a{
 .second-box-text{
     display: flex;
     flex-direction: column;
-    border: solid red;
-    width: 80%;
+    /* border: solid red; */
+    box-shadow: 10px 10px 10px 10px var(--body-color);
+
+    width: 100%;
     border-radius: 10px;
     height: 100%;
 
 }
 
 .space{
-    border: solid white;
+    border: solid var(--dark-grey-color);
     border-radius: 10px 10px 0px 0px;
     height: 30%;
     color: white;
     display: flex;
     align-items: center;
+    border-bottom: none;
 }
 
 .listen{
@@ -696,7 +703,7 @@ a{
 }
 
 .space2{
-    border: solid green;
+    border: solid var(--dark-grey-color);
     height: 70%;
     border-radius: 0px 0px 10px 10px;
     display: flex;
@@ -704,17 +711,20 @@ a{
 }
 
 .third-box{
-    border: solid green;
+    border: solid var(--dark-grey-color);
     height: 600px;
     width: 80%;
     margin-top: 10px;
+    box-shadow: 10px 10px 10px 10px var(--body-color);
+    border-radius: 10px;
     /* display: grid;
     grid-template-rows: repeat(5,1fr); */
 }
 
 .testing12{
     height: 7%;
-    border: solid white;
+    /* border: solid white; */
+    border-radius: 10px 10px 0px 0px;
     color: white;
     font-weight: bold;
     font-size: large;
@@ -727,16 +737,102 @@ a{
 }
 
 .third-box2{
-    height: 90%;
+    height: 93%;
+    /* border: solid brown; */
     display: grid;
     grid-template-rows: repeat(5,1fr);
+    border-radius: 0px 0px 10px 10px;
+    
 }
 
-.grid1{
-    border: solid red;
+.grid1:hover{
+    /* border: solid red; */
+    background-color: var(--hover-color);
 }
 
+.five{
+    border-radius: 0px 0px 10px 10px;
+    /* border: solid rebeccapurple; */
+}
 
+#premier{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.premier{
+    /* border: solid red; */
+    height: 95%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.league{
+    font-size: small;
+}
+
+.league1{
+    font-size: small;
+    
+}
+
+.chelsea{
+    margin-top: 5px;
+    margin-left: 2%;
+    color: var(--color-white);
+}
+
+.rashford{
+    /* border: solid blue; */
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    background-image: url(../image/rashy.webp);
+    background-size: cover;
+    margin-right: 2%;
+}
+.sports{
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+display: flex;
+flex-direction: row;
+    margin-top: 2%;
+}
+
+.sports-row{
+    /* border: solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 95%;
+    color: white;
+    justify-content: center;
+}
+
+.chelsea11{
+    margin-left: 2%;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.sports-row2{
+    /* border: solid green; */
+    width: 65%;
+    height: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dots{
+    font-size: large;
+    margin-right: 5px;
+}
 
 
 @media screen and (max-width:768px) {
