@@ -198,7 +198,7 @@ header{
     margin-top: 3%;
     width: 50px;
     border-radius: 50%;
-    background-image: url(../image/black-mirror.jpeg);
+    background-image: url(../Twitter-demo/image/black-mirror.jpeg);
     background-size: cover;
 }
 
@@ -209,7 +209,7 @@ header{
         margin-top: 3%;
         width: 50px;
         border-radius: 50%;
-        background-image: url(../image/emily.webp);
+        background-image: url(../Twitter-demo/image/emily.webp);
         background-size: cover;
     
 }
@@ -394,7 +394,7 @@ header{
 .cr7-image{
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../image/cr7.jpeg);
+    background-image: url(../Twitter-demo/image/cr7.jpeg);
     background-size: cover;
     margin-top: 15px;
     /* border: solid black; */
@@ -452,7 +452,7 @@ header{
         margin-top: 3%;
         width: 50px;
         border-radius: 50%;
-        background-image: url(../image/elon.jpeg);
+        background-image: url(../Twitter-demo/image/elon.jpeg);
         background-size: cover;
     
 }
@@ -471,7 +471,7 @@ header{
     /* border: solid green; */
     /* margin-top: 4px; */
     height: 80%;
-    background-image: url(../image/Starlink-logo-Terminal-Tesmanian_1000x_1600x_a0524fcc-d9d4-4488-b99c-57b1ee2425d0.webp);
+    background-image: url(../Twitter-demo/image/Starlink-logo-Terminal-Tesmanian_1000x_1600x_a0524fcc-d9d4-4488-b99c-57b1ee2425d0.webp);
     background-size: cover;
     background-position: 30%;
     border-radius: 0px 0px 10px 10px;
@@ -791,7 +791,7 @@ a{
     width: 25%;
     height: 80%;
     border-radius: 10px;
-    background-image: url(../image/rashy.webp);
+    background-image: url(../Twitter-demo/image/rashy.webp);
     background-size: cover;
     margin-right: 2%;
 }
